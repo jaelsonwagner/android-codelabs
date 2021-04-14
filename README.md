@@ -36,3 +36,8 @@ the License.
 
 TODO: 
 adb reverse tcp:8080 tcp:8080
+
+
+npm install
+npm run run-http
+npm run run-https

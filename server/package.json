@@ -9,7 +9,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-http": "http-server ./data",
+    "run-https": "http-server ./data --ssl -C ./ssl/scripts/v1/root-ca.cert.pem -K ./ssl/scripts/v1/root-ca.privkey.pem"
   },
   "author": "",
   "license": "ISC"
